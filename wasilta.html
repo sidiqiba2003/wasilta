@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="wasilta.css">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">My_Website</div>
+    <nav>
+      <ul>
+        <li><a href="#beranda">BERANDA</a></li>
+         <li><a href="#profil">PROFIL</a></li>
+        <li><a href="#audio-video">AUDIO VIDEO</a></li>
+        <li><a href="#tentang">TENTANG</a></li>
+        <li><a href="#FAKTA">FAKTA</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="beranda">
+    <h2>Selamat Datang di Website Kami</h2>
+    <p>Ini adalah halaman beranda.</p>
+  </section>
+
+  <section id="profil">
+    <table>
+    <h2>Profil Saya</h2>
+    <tr>
+	    <td rowspan="13"><img src="cil.profil - Copy.jpg" height="355" width="250"></td>
+		<td>Nama Lengkap</td>
+		<td >:Wasilta rumauw</td>
+
+	</tr>
+
+	  <tr>
+		<td>Nama Panggilan         </td>
+		<td>:Silta</td>
+	</tr>
+
+	<tr>
+		<td>Nim                    </td>
+		<td> 16323067</td>
+	</tr>
+
+	  <tr>
+		<td>Kewarganegaraan          </td>
+		<td>: Indonesia</td>
+	</tr>
+
+
+	<tr>
+		<td>Jenis Kelamin          </td>
+		<td> perempuan</td>
+	</tr>
+
+	<tr>
+		<td>Golongan Darah         </td>
+		<td>: (-)</td>
+	</tr>
+
+	<tr>
+		<td>Tempat Tanggal Lahir   </td>
+		<td>:kilili,09-juni,2005</td>
+	</tr>
+
+	<tr>
+		<td>Alamat                 </td>
+		<td>:nuri dalam</td>
+	</tr>
+
+	<tr>
+		<td>Status                 </td>
+		<td>: Mahasiswa</td>
+	</tr>
+
+	<tr>
+		<td>Prodi/Jurusan          </td>
+		<td>: D3 Manajemen Informatika</td>
+	</tr>
+
+	<tr>
+		<td>Hobi                   </td>
+		<td>:drakor</td>
+	</tr>
+
+
+	<tr>
+		<td>No Telpon              </td>
+		<td>: 082179117445</td>
+  </table>
+	</tr>
+	
+  </section>
+
+  <section id="audio-video">
+    <h2>Audio dan Video</h2>
+    <p>Ini adalah halaman audio dan video.</p>
+    <audio controls src="I Wanna Be Yours.mp3"></audio>
+    <p> I Wanna Be Yours merupakan lagu yang dipopulerkan oleh grup musik asal Britania Raya, Arctic Monkeys.
+      Lagu berdurasi 3 menit 3 detik ini merupakan lagu ke-12 dalam album bertajuk “AM” yang dirilis pada tahun 2013. Album ini memuat 12 trek lagu, di antaranya I Want It All, Arabella, dan No. 1 Party Anthem.
+      Penasaran seperti apa lagunya? Berikut lirik dan terjemahan lagu “I Wanna Be Yours” yang dibawakan Arctic Monkeys.</p>
+    <video controls autoplay src="cil jj 1.mp4" width="250" height="350"></video>
+  </section>
+
+  <section id="tentang">
+    <h2>Tentang Kami</h2>
+    <p> assalamulaikum wr.wb</p>
+    
+      <tr>
+        saya ada  adalah mahasiswa polinef negeri fakfak jurusan manajamen informatika 
+        <table>
+        <td>alasan masuk polinef</td>
+        <td> ingin mengembangkan kemampuan dalam bidang computer</td>
+
+        <tr>
+        <td>quote of the day</td>
+        <td>dunia ini penuh dengan orang orang baik,jika kamu tidak dapat menamukan maka jadilah salah satunya</td>
+        </table>
+      </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+    </table>
+  </section>
+
+  <section id="FAKTA">
+    <h2>FAKTA</h2>
+    <p> Para ilmuwan menemukan bunga tertua di dunia pada tahun 2002, di timur laut Cina. Bunga tersebut bernama Archaefructus sinensis, yang mekar sekitar 125 juta tahun yang lalu dan mirip dengan bunga Lili air.
+   <p>Bunga berevolusi dari mamalia.</p>   
+  
+      
+    
+  </section>
+
+  <footer>
+    <p>&copy; wasilta</p>
+  </footer>
+
+  <script>
+    // Add smooth scrolling behavior
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = e.target.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
